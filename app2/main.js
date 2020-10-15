@@ -49,9 +49,9 @@ window.onload = (event) => {
  
     (function 초기화() {
        showText = document.querySelector('#show-text');
-       // showText.addEventListener('selectstart', (event) => {
-       //    event.preventDefault(); // 드래그 방지
-       // });
+       showText.addEventListener('selectstart', (event) => {
+          event.preventDefault(); // 드래그 방지
+       });
        input = document.querySelector('#input-typing');
        ctx = document.querySelector('.ctx');
        count = 0;
