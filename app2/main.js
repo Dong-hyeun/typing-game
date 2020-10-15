@@ -50,8 +50,8 @@ window.onload = (event) => {
     (function 초기화() {
        showText = document.querySelector('#show-text');
        showText.addEventListener('selectstart', (event) => {
-          event.preventDefault(); // 드래그 방지
-       });
+          event.preventDefault(); 
+       }); // 드래그 방지
        input = document.querySelector('#input-typing');
        ctx = document.querySelector('.ctx');
        count = 0;
@@ -65,13 +65,10 @@ window.onload = (event) => {
           while (true) {
              idx = Math.round(Math.random() * (textList.length - 1));
              if (!history.includes(idx)) {
-                // console.log('이거 괜찮아!!');
                 break;
              } else {
-                // console.log(idx + '는 중복된거네 다시해보자');
              }
           }
-          // console.log(idx);
           history.push(idx);
           showText.textContent = textList[idx];
        }
@@ -81,7 +78,7 @@ window.onload = (event) => {
     }
     function 맞힌갯수에숫자올리기() {
        count++;
-       ctx.textContent = count; // 이것은 맞힌 갯수에 표시해주는거다
+       ctx.textContent = count; // 맞힌 갯수 표시
     }
     function 맞춘갯수가전체목록수보다작은가() {
        return count < textList.length - 1;
@@ -143,12 +140,3 @@ window.onload = (event) => {
     // 초기화();
     앱의메인로직();
  };
- 
- /*
-    [브라우저창으로 여는 법]
-    let view = https://yeu.kr/4Hxzi#js 여기 4Hxzi#js 에서 #js앞에 것 
-    -> https://아이디명.aww.kr/view
- 
-    
- 
-  */
