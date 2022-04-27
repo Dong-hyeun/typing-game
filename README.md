@@ -1,4 +1,4 @@
-# tazakor
+# Typing haja
 
 demo: https://dhyunlee.github.io/taza2
 
