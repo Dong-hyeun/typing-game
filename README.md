@@ -1,6 +1,6 @@
 # tazakor
 
-demo: https://dhyunlee.github.io/tazakor/
+demo: https://dhyunlee.github.io/taza2
 
 ## 1. 프로젝트 설명
 
