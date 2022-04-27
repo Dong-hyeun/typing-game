@@ -1,24 +1,23 @@
 # tazakor
 
-demo: https://dhyunlee.github.io/tazakor//
+demo: https://dhyunlee.github.io/tazakor/
 
 ## 1. 프로젝트 설명
 
-## Title: Typing haja (ver 2.0 )
+## 프로젝트명: Typing haja (ver 2.0 )
 
-## Desc: 자바스크립트 학습 목적으로 만든 Typing haja 는 제한 시간에 타이핑을 하는
+## 설명   
+### ◎ 자바스크립트 학습 목적으로 만든 Typing haja 는 제한 시간에 타이핑하는 단순한 게임입니다.
 
-## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 단순한 타자 게임입니다.
-
-## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 자바스크립트의 기본적인 문법 및 배운 내용을 가지고 진행한 프로젝트입니다.
+### ◎ 자바스크립트의 기본적인 문법 및 배운 내용을 가지고 진행한 프로젝트입니다.
 
 <br/>
 
 ## 2. 기능
 
-## - 랜덤으로 텍스트 출력
+### - 랜덤으로 텍스트 출력
 
-## - 타이머 기능 (제한 시간) 및 메시지 출력
+### - 타이머 기능 (제한 시간) 및 메시지 출력
 
 ### &nbsp; → 시간이 초과되면 GameOver 메시지가 출력됩니다.
 
