@@ -16,7 +16,7 @@ window.onload = _ => {
   //-->
 
   function 타이머() {
-    let setTime = 3000;
+    let setTime = 3600;
     let time = setTime;
 
     showTime = document.querySelector('#innerNum');
@@ -70,9 +70,7 @@ window.onload = _ => {
     incMsg.classList.add('hiddren');
     if (textList.length > history.length) {
       while (true) {
-        idx = Math.round(
-          Math.random() * (textList.length - 1),
-        ); //무작위 인덱스 추출
+        idx = Math.round(Math.random() * (textList.length - 1)); //무작위 인덱스 추출
         if (!history.includes(idx)) {
           break;
         }
@@ -150,15 +148,11 @@ window.onload = _ => {
         },
       });
       let 엔터를눌렀는가 = e.keyCode === 13;
-      let 타이핑값이같은가 =
-        textList[idx].indexOf(input.value) === 0;
+      let 타이핑값이같은가 = textList[idx].indexOf(input.value) === 0;
       if (타이핑값이같은가) {
-        let str = `<strong id='st'>${
-          input.value
-        }</strong>${textList[idx].substring(
-          input.value.length,
-          textList[idx].length,
-        )}`;
+        let str = `<strong id='st'>${input.value}</strong>${textList[
+          idx
+        ].substring(input.value.length, textList[idx].length)}`;
         showText.innerHTML = str;
       } else {
         showText.textContent = textList[idx];
@@ -198,10 +192,8 @@ window.onload = _ => {
       // 여기부터 초기화 함수등을 실행 -->
 
       // container 요소 보이기
-      let startNav =
-        document.querySelector('#typing-start');
-      const container =
-        document.querySelector('#container');
+      let startNav = document.querySelector('#typing-start');
+      const container = document.querySelector('#container');
       container.style.opacity = 1;
 
       //타이핑 시작
