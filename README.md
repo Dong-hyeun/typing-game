@@ -1,6 +1,6 @@
 # Typing haja
 
-demo: https://dhyunlee.github.io/taza2
+[demo](https://dhyunlee.github.io/typing-game/)
 
 ## 1. 프로젝트 설명
 
